@@ -2,44 +2,152 @@
   box-sizing: border-box;
 }
 
-.box{
-  color: wheat;
-  background-color: darkcyan;
-  height: 200px;
-  width: 500px;
-  display: flex;
-  align-items: flex-start;
+.header {
+display: flex;
   justify-content: space-between;
+}
+
+.as {
+  display: flex;
+}
+
+.ps {
+  display: flex;
+}
+.about {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight:bold;
+  color: rgb(107, 107, 107);
+}
+
+.store {
+  display: flex;
+  padding-left: 10px;
+  font-weight:bold;
+  color: rgb(107, 107, 107);
+}
+
+.profile {
+  display: flex;
+  padding-right: 10px;
+  font-weight:bold;
+  color: rgb(107, 107, 107);
+}
+.settings {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight:bold;
+  color: rgb(107, 107, 107);
+}
+
+.center{
+  margin-top: 100px;
+}
+
+
+img {
+  display: flex;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.fin {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.emp {
+  border-radius: 20px;
+  border: 2px solid silver;
+  height: 30px;
+  width: 500px;
+  margin-top: 10px;
+ 
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+ 
+}
+
+.thing{
+  background-color: rgba(192, 192, 192, 0.699);
+ margin-right: 10px;
+ padding: 5px;
+ padding-left: 10px;
+ padding-right: 10px;
+ border-radius: 10px;
+}
+.other {
+  background-color: rgba(192, 192, 192, 0.699);
+  padding: 5px;
+  padding-left: 10px;
+ padding-right: 10px;
+  
+ 
   border-radius: 10px;
 }
-
-.exit {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20px;
-  width: 20px;
-  border-radius: 20px;
-  color: darkcyan;
-  background-color: wheat;
-  margin: 10px;
-  min-width: 20px;
-  min-height: 20px;
+.bottom-header{
+    display: flex;
+      justify-content: space-between;
+      background-color: #eeeeee;
+      margin-top: 100px;
+      
+      
 }
 
-.peace {
+.AB{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20px;
-  width: 20px;
-  border-radius: 20px;
-  color: darkcyan;
-  background-color: wheat;
-  margin: 10px;
-  min-width: 20px;
-  min-height: 20px;
+}
+.PT{
+  display: flex;
+}
+.add {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight:bold;
+  color: rgb(107, 107, 107);
 }
 
+.busi{
+  display: flex;
+  padding-left: 10px;
+  font-weight:bold;
+  color: rgb(107, 107, 107);
+}
+
+.privacy {
+  display: flex;
+  padding-right: 10px;
+  font-weight:bold;
+  color: rgb(107, 107, 107);
+}
+.terms {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight:bold;
+  color: rgb(107, 107, 107);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 
