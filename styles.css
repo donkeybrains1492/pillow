@@ -1,153 +1,64 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-.header {
+html,body { height:100%; }
+
+.purp {
+background-color: purple;
+color: aliceblue;
+height: 60px;
 display: flex;
-  justify-content: space-between;
+align-items: center;
+padding-left: 10px;
 }
 
-.as {
-  display: flex;
-}
-
-.ps {
-  display: flex;
-}
-.about {
-  display: flex;
-  padding-right: 10px;
-  padding-left: 10px;
-  font-weight:bold;
-  color: rgb(107, 107, 107);
-}
-
-.store {
-  display: flex;
-  padding-left: 10px;
-  font-weight:bold;
-  color: rgb(107, 107, 107);
-}
-
-.profile {
-  display: flex;
-  padding-right: 10px;
-  font-weight:bold;
-  color: rgb(107, 107, 107);
-}
-.settings {
-  display: flex;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-weight:bold;
-  color: rgb(107, 107, 107);
-}
-
-.center{
-  margin-top: 100px;
-}
-
-
-img {
-  display: flex;
-  height: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.fin {
-  display: flex;
-  
-  align-items: center;
-  justify-content: center;
-  
-}
-
-.emp {
-  border-radius: 20px;
-  border: 2px solid silver;
-  height: 30px;
-  width: 500px;
-  margin-top: 10px;
- 
-}
-
-.box1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
- 
-}
-
-.thing{
-  background-color: rgba(192, 192, 192, 0.699);
- margin-right: 10px;
- padding: 5px;
- padding-left: 10px;
- padding-right: 10px;
- border-radius: 10px;
-}
-.other {
-  background-color: rgba(192, 192, 192, 0.699);
-  padding: 5px;
-  padding-left: 10px;
- padding-right: 10px;
-  
- 
-  border-radius: 10px;
-}
-.bottom-header{
-    display: flex;
-      justify-content: space-between;
-      background-color: #eeeeee;
-      margin-top: 100px;
-      
-      
-}
-
-.AB{
-  display: flex;
-}
-.PT{
-  display: flex;
-}
-.add {
-  display: flex;
-  padding-right: 10px;
-  padding-left: 10px;
-  font-weight:bold;
-  color: rgb(107, 107, 107);
-}
-
-.busi{
-  display: flex;
-  padding-left: 10px;
-  font-weight:bold;
-  color: rgb(107, 107, 107);
-}
-
-.privacy {
-  display: flex;
-  padding-right: 10px;
-  font-weight:bold;
-  color: rgb(107, 107, 107);
-}
-.terms {
-  display: flex;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-weight:bold;
-  color: rgb(107, 107, 107);
-}
-
-html,
-body {
+.blue {
+  background-color: lightseagreen;
   height: 100%;
-  margin: 0;
-  padding: 0;
+  width: 250px;
+  padding: 10px;
+  color: aliceblue;
+  display: flex;
 }
 
+#jedan , .dva , .tri{
+  padding-bottom: 5px;
+}
 
+.boxes{
+  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ margin: 30px;
+}
+
+.solo{
+  display: flex;
+  height: 100%;
+}
+
+#text{
+  height: 200px;
+  width: 300px;
+  flex-wrap: wrap;
+  
+  display: flex;
+  align-items: flex-start;
+padding: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.bottom{
+  height: 60px;
+  background-color: silver;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
